@@ -38,44 +38,88 @@ body {
     font-family: var(--fonte-padrao);
 }
 
-img {width: 100%;}
+img {
+    width: 100%;
+}
 
-h1, h2, h3, h4, h5, h6 {font-family: var(--fonte-pesada);}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--fonte-pesada);
+}
 
-h1 {font-size: 2em;}
+h1 {
+    font-size: 2em;
+}
 
-h2 {font-size: 2.5em;}
+h2 {
+    font-size: 2.5em;
+}
 
-p {font-size: 1em;}
+p {
+    font-size: 1em;
+}
 
-li {list-style: none;}
+li {
+    list-style: none;
+}
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
-p {text-align: justify;}
+p {
+    text-align: justify;
+}
 
-h1, h2 {text-align: center;}
+h1,
+h2 {
+    text-align: center;
+}
 
 /* Custom */
-.branco {color: var(--branco);}
+.branco {
+    color: var(--branco);
+}
 
-.f-branco {background-color: var(--branco);}
+.f-branco {
+    background-color: var(--branco);
+}
 
-.preto {color: var(--preto);}
+.preto {
+    color: var(--preto);
+}
 
-.f-preto {background-color: var(--preto);}
+.f-preto {
+    background-color: var(--preto);
+}
 
-.vermelho {color: var(--vermelho);}
+.vermelho {
+    color: var(--vermelho);
+}
 
-.f-vermelho {background-color: var(--vermelho);}
+.f-vermelho {
+    background-color: var(--vermelho);
+}
 
-.cinza {color: var(--cinza-escuro);}
+.cinza {
+    color: var(--cinza-escuro);
+}
 
-.f-cinza {background-color: var(--cinza-escuro);}
+.f-cinza {
+    background-color: var(--cinza-escuro);
+}
 
-.f-cinza-claro {background-color: var(--fundo-formulario);}
+.f-cinza-claro {
+    background-color: var(--fundo-formulario);
+}
 
-.container-sd {padding: 0 5%;}
+.container-sd {
+    padding: 0 5%;
+}
 
 .espaco {
     padding-top: 20px;
@@ -96,7 +140,9 @@ h1, h2 {text-align: center;}
     margin: auto 0 auto 10px;
 }
 
-.img-site {height: 350px;}
+.img-site {
+    height: 350px;
+}
 
 /* Menu */
 .btn-menu {
@@ -139,7 +185,9 @@ h1, h2 {text-align: center;}
     text-align: center;
 }
 
-.menu li {padding: 8px 0;}
+.menu li {
+    padding: 8px 0;
+}
 
 .menu li a {
     font-size: 1.8em;
@@ -154,7 +202,9 @@ h1, h2 {text-align: center;}
     margin-right: 30px;
 }
 
-.btn-search-xl {display: none;}
+.btn-search-xl {
+    display: none;
+}
 
 /* Banner */
 .banner {
@@ -162,17 +212,23 @@ h1, h2 {text-align: center;}
     height: 400px;
 }
 
-.banner img {height: 300px;}
+.banner img {
+    height: 300px;
+}
 
 /* Section quem somos */
-#quem-somos h1 {padding: 10px 0;}
+#quem-somos h1 {
+    padding: 10px 0;
+}
 
 #quem-somos h2 {
     font-size: 3.5em;
     padding: 10px 0;
 }
 
-#quem-somos p {padding: 10px 0;}
+#quem-somos p {
+    padding: 10px 0;
+}
 
 .btn-saiba {
     padding: 10px;
@@ -187,24 +243,37 @@ h1, h2 {text-align: center;}
 }
 
 /* Section Espaco */
-#nosso-espaco h1 {padding: 10px 0;}
+#nosso-espaco h1 {
+    padding: 10px 0;
+}
 
 #nosso-espaco h2 {
     font-size: 3.5em;
     padding: 10px 0;
 }
 
-#nosso-espaco p {padding: 10px 0;}
+#nosso-espaco p {
+    padding: 10px 0;
+}
 
 /* Section fale */
-h1, p {color: var(--fundo-cinza-escuro);}
+h1,
+p {
+    color: var(--fundo-cinza-escuro);
+}
 
-#fale-conosco h1 {padding: 10px 0;}
+#fale-conosco h1 {
+    padding: 10px 0;
+}
 
-#fale-conosco p {padding: 10px 0;}
+#fale-conosco p {
+    padding: 10px 0;
+}
 
 /* Section fale */
-.contato-icone {padding: 20px 0;}
+.contato-icone {
+    padding: 20px 0;
+}
 
 .btn-icon {
     background-color: var(--fundo-formulario);
@@ -216,7 +285,9 @@ h1, p {color: var(--fundo-cinza-escuro);}
     padding: 10px 15px;
 }
 
-.btn-icon span {margin-left: 10px;}
+.btn-icon span {
+    margin-left: 10px;
+}
 
 /* Section form  */
 .form-area {
@@ -224,7 +295,8 @@ h1, p {color: var(--fundo-cinza-escuro);}
     padding: 20px 0;
 }
 
-input, select {
+input,
+select {
     width: 100%;
     margin: 10px 0;
     padding: 20px 0 20px 10px;
@@ -242,7 +314,9 @@ textarea {
     width: 100%;
 }
 
-textarea::placeholder {font-size: 1.2em;}
+textarea::placeholder {
+    font-size: 1.2em;
+}
 
 .btn-form {
     padding: 20px;
@@ -257,11 +331,17 @@ textarea::placeholder {font-size: 1.2em;}
 }
 
 /* Footer */
-footer {text-align: center;}
+footer {
+    text-align: center;
+}
 
-footer ul li {margin-bottom: 20px;}
+footer ul li {
+    margin-bottom: 20px;
+}
 
-footer p {text-align: center;}
+footer p {
+    text-align: center;
+}
 
 .risco-rodape {
     content: '';
@@ -271,9 +351,13 @@ footer p {text-align: center;}
     display: inline-block;
 }
 
-.footer {padding: 20px 0;}
+.footer {
+    padding: 20px 0;
+}
 
-.footer-menu {font-size: 1.5em;}
+.footer-menu {
+    font-size: 1.5em;
+}
 
 .footer-icon {
     margin-top: 20px;
@@ -285,6 +369,10 @@ footer p {text-align: center;}
     margin: 0 auto;
 }
 
-.footer-icon ul li a:nth-child(1) {margin-left: 20px;}
+.footer-icon ul li a:nth-child(1) {
+    margin-left: 20px;
+}
 
-.t {display: none;}
+.t {
+    display: none;
+}
